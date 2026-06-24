@@ -2,21 +2,28 @@
 body {
   margin: 0;
   padding: 0;
+  background: #0d1117;
 }
-h1 {
-    margin-left:2%;
-    margin-top: 4%;
-    text-align: left;
+.hero-name strong{
+  font-weight: 600;
+  color: rgb(104, 174, 218);
 }
-#hi {
+.hero-name{
+  margin-left:2%;
+  margin-top: 4%;
+  text-align: left;
+  color: aliceblue;
+}
+.hero-intro {
   margin-left: 2%;
   margin-right: 4%;
   font-size: 24px;
+  color: aliceblue;
 }
 #button_main{
   display: inline-block;
   color: rgb(12, 10, 10);
-  background-color: antiquewhite;
+  background-color: rgb(73, 86, 136);
   padding: 19px 20px;
   text-decoration: none;
   margin-left: 2%;
@@ -27,6 +34,15 @@ h1 {
 #button_main:hover{
   background-color: #111111;
   color: aliceblue;
+}
+.image_main{
+  margin-left: 2%;
+  margin-right: 4%;
+  margin-top: 4%;
+  display: block;
+  max-width: 30%;
+  height: auto;
+  border-radius: 20px;
 }
 /*
 h2, p {
@@ -49,7 +65,7 @@ ul li {
 */
 ul li a {
   display: block;
-  color: rgb(12, 10, 10);
+  color: aliceblue;
   text-align: center;
   padding: 19px 20px;
   text-decoration: none;
@@ -57,4 +73,5 @@ ul li a {
 
 ul li a:hover {
   background-color: #111111;
+  border-radius: 10px;
 }
