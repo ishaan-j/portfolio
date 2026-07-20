@@ -75,3 +75,17 @@ ul li a:hover {
   background-color: #111111;
   border-radius: 10px;
 }
+
+.about_section{
+  background-color: white;
+}
+
+#h1_about{
+  text-align: center;
+}
+
+#p_about{
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-bottom: 4%;
+}
